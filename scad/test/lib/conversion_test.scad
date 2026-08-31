@@ -46,3 +46,5 @@ assert(aprox_eq(ft_to_mm(1), 304.8), "failed to convert ft -> mm");
 assert(aprox_eq(ft_to_cm(1), 30.48), "failed to convert ft -> cm");
 
 assert(aprox_eq(ft_to_meters(3.28084), 1), "failed to convert ft -> meters");
+
+cube(inches_to_mm(3/4));
